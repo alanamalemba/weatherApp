@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">Weather App</h1>
+    </header>
+
+    <!-- WEATHER DISPLAY  -->
+    <div class="weather-display">
+      <!-- location -->
+      <div class="location-details">
+        <h2 data-location-name class="location-name"></h2>
+        <div>
+          <span data-location-region class="location-region"></span>
+          <span data-location-country class="location-country"></span>
+        </div>
+      </div>
+
+      <!-- date and time -->
+      <div data-last-updated class="last-updated"></div>
+
+      <!-- weather details -->
+      <div class="weather-details">
+        <div data-current-temperature class="temperature-status"></div>
+
+        <div class="weather-status">
+          <img data-current-weather-icon class="weather-icon" src="" alt="" />
+          <div data-current-weather-text class="weather-text"></div>
+        </div>
+      </div>
+
+      <div class="search-location-input">
+        <form data-search-form class="search-form">
+          <div>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Search City or Town here"
+              data-search-input
+            />
+            <button class="search-button"></button>
+          </div>
+        </form>
+        <button
+          title="Switch to Fahrenheit or Celcius"
+          class="temp-unit-button"
+          data-temp-unit-button
+        ></button>
+      </div>
+      <img
+        data-loading-gif
+        class="loading-gif"
+        src="./assets/loading.gif"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

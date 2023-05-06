@@ -1,0 +1,41 @@
+{
+  "location": {
+    "name": "Nairobi",
+    "region": "Nairobi Area",
+    "country": "Kenya",
+    "lat": -1.28,
+    "lon": 36.82,
+    "tz_id": "Africa/Nairobi",
+    "localtime_epoch": 1683362012,
+    "localtime": "2023-05-06 11:33"
+  },
+  "current": {
+    "last_updated_epoch": 1683361800,
+    "last_updated": "2023-05-06 11:30",
+    "temp_c": 20.0,
+    "temp_f": 68.0,
+    "is_day": 1,
+    "condition": {
+      "text": "Partly cloudy",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+      "code": 1003
+    },
+    "wind_mph": 11.9,
+    "wind_kph": 19.1,
+    "wind_degree": 180,
+    "wind_dir": "S",
+    "pressure_mb": 1026.0,
+    "pressure_in": 30.3,
+    "precip_mm": 0.0,
+    "precip_in": 0.0,
+    "humidity": 73,
+    "cloud": 75,
+    "feelslike_c": 20.0,
+    "feelslike_f": 68.0,
+    "vis_km": 10.0,
+    "vis_miles": 6.0,
+    "uv": 6.0,
+    "gust_mph": 5.8,
+    "gust_kph": 9.4
+  }
+}
